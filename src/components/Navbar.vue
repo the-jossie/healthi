@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HButton from './Button.vue'
 import Logo from './icons/Logo.vue'
 </script>
 
