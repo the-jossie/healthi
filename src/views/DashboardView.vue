@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import Navbar from '../components/Navbar.vue'
+</script>
+
 <template>
-  <h1>DashboardView</h1>
+  <Navbar />
 </template>
