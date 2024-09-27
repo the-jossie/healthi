@@ -20,18 +20,12 @@ export default {
   },
   computed: {
     buttonStyle() {
-      return [
-        this.buttonBaseStyle,
-        this.buttonSizesStyle[this.width],
-        this.buttonVariantsStyle[this.variant]
-      ].join(' ')
+      return [this.buttonBaseStyle, this.buttonVariantsStyle[this.variant]].join(' ')
     },
     buttonBaseStyle() {
       return `
-        font-medium
-        px-20
-        py-3
-        rounded-md
+        p-3
+        rounded-lg
         transform
         transition-all
         active:scale-90
@@ -40,13 +34,6 @@ export default {
         items-center
         justify-center
       `
-    },
-    buttonSizesStyle() {
-      return {
-        auto: 'w-auto',
-        fixed: 'w-48',
-        full: 'w-full'
-      }
     },
     buttonVariantsStyle() {
       return {
