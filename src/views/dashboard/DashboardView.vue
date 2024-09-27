@@ -2,6 +2,7 @@
 import Navbar from '../../components/Navbar.vue'
 import ConsultationCarousel from './ConsultationCarousel.vue'
 import DoctorSearch from './DoctorSearch.vue'
+import RecommendedDoctors from './RecommendedDoctors.vue'
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import DoctorSearch from './DoctorSearch.vue'
   <section class="px-36 py-7">
     <ConsultationCarousel />
     <DoctorSearch />
+    <RecommendedDoctors />
   </section>
 </template>
