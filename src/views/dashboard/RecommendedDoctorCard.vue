@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Doctor } from '@/utils/types.ts'
-import HButton from '@/components/button.vue'
+import type { Doctor } from '@/utils/types.ts'
+import HButton from '@/components/Button.vue'
 
 export default defineComponent({
   name: 'RecommendedDoctorCard',

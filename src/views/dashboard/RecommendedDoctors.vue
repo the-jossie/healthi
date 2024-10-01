@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { DOCTORS } from './config.ts'
-import RecommendenDoctorCard from './RecommendedDoctorCard.vue'
+import RecommendeDoctorCard from './RecommendedDoctorCard.vue'
 
 </script>
 
@@ -16,7 +16,7 @@ import RecommendenDoctorCard from './RecommendedDoctorCard.vue'
 
     <ul class="grid grid-cols-3 gap-4">
       <li v-for="(doctor, index) in DOCTORS" :key="index">
-        <RecommendenDoctorCard :doctor="doctor" />
+        <RecommendeDoctorCard :doctor="doctor" />
       </li>
     </ul>
   </div>
