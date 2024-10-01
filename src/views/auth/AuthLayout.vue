@@ -9,7 +9,7 @@ import Logo from '@/components/icons/Logo.vue'
 
       <img src="@/assets/auth-bg.png" class="absolute bottom-0 left-0" />
     </div>
-    <div>
+    <div class="h-full w-1/2">
       <slot></slot>
     </div>
   </div>
