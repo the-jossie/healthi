@@ -1,5 +1,6 @@
 <script>
 export default {
+  name: 'HButton',
   props: {
     isLoading: {
       type: Boolean,
